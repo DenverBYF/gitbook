@@ -12,3 +12,39 @@ description: 描述
 
 ![883250@1590316569@2.png](https://i.loli.net/2020/12/13/FuVoU6L18aA4NiB.png)
 
+```text
+#创建工作空间，名字可以是任意的字符串
+mkdir workspace
+cd workspace/
+#创建文件夹path
+mkdir path
+cd path/
+#在path文件下创建6个.txt文件
+touch depth.txt
+touch project.txt
+touch pycparser.txt
+touch SecretOrIntegrity.txt
+touch synthesisChoiceSet.txt
+touch time.txt
+cd ..
+#创建项目,项目名称可以是任意字符串
+mkdir hhhh
+cd hhhh/
+#项目中有必要的文件夹，下面创建这些文件夹
+mkdir meta_data
+mkdir pilot_src
+mkdir result
+cd meta_data/
+mkdir com_veri
+mkdir Soure_copy
+mkdir temp
+cd com_veri/
+mkdir sec_cert
+cd ..
+cd ..
+cd pilot_src/
+mkdir Source
+cd ..
+
+```
+
